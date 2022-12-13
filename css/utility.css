@@ -1,0 +1,131 @@
+/*prefixes
+    u = utility class
+    r = responsive class
+*/
+/*#######
+UTILITY FLEX ROW
+#######*/
+.uflexrow-center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.uflexrow-center-wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.uflexrow-start {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.uflexrow-end {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/*#######
+UTILITY FLEX COL
+#######*/
+.uflexcol-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.uflexcol-end {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/*#######
+UTILITY MISC.
+#######*/
+.ulink {
+    text-decoration: none;
+    color: inherit;
+}
+
+.ulink:visited{
+    color: inherit;
+}
+
+
+.unlist {
+    list-style: none;
+}
+
+.ubold {
+    font-weight: var(--fw-bold);
+    margin: 0; /*Deleting this margin will displace pretty much everything... CAREFUL for future 'fixes'*/
+}
+
+.utext-center {
+    text-align: center;
+}
+
+.utext-justify {
+    text-align: justify;
+}
+
+/*#######
+RESPONSIVE & MEDIA QUERY
+#######*/
+
+.rflexrowcenter-colreverse {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rflexrowstart-colstart {
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+    justify-content: flex-start;
+}
+
+.rflexrowcenter-colcenter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.rflexrowend-rowstart {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+@media (max-width: 700px) {
+    .rflexrowcenter-colreverse {
+        flex-direction: column-reverse;
+    }
+
+    .rflexrowstart-colstart {
+        flex-direction: column;
+    }
+    .rflexrowcenter-colcenter {
+        flex-direction: column;
+    }
+    .rflexrowend-rowstart {
+        justify-content: flex-start;
+    }
+}

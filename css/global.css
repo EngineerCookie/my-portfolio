@@ -1,0 +1,71 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 300;
+    font-size: min(var(--fs-normal), 5vw);
+}
+
+:root {
+    scroll-behavior: smooth;
+    font-size: 20px;
+    /*VARIABLES*/
+    /*## Colors hsl ##*/
+    /*#### main-color: darkish blue*/
+    --color-main-h: 242;
+    --color-main-s: 100%;
+    --color-main-l: 21%;
+    /*DARK THEME*/
+    /*#### sub-color: white*/
+    --color-sub-h: 0;
+    --color-sub-s: 0%;
+    --color-sub-l: 100%;
+    /*DARK THEME*/
+    /*#### misc*/
+    --filter-l: 0.3;
+    /*DARK THEME*/
+    --shadow: black;
+    /*DARK THEME*/
+    /*## TEXT & FONT ##*/
+    --color-text-l: 21%;
+    /*DARK THEME*/
+    --fs-normal: 1rem;
+    --fs-title: 1.8rem;
+    --fs-note: 0.6rem;
+    --fw-bold: 700;
+    /*ANIMATION*/
+    --animation-basic: 500ms ease-in;
+}
+
+body,
+main {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+}
+
+body {
+    background-color: hsl(var(--color-sub-h), var(--color-sub-s), var(--color-sub-l));
+    background-image: url('../img/Polygon Luminary.svg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: var(--animation-basic);
+}
+
+body.dark {
+    /*DARK THEME color scheme*/
+    --color-sub-l: 0%;
+    --color-main-l: 70%;
+    --color-text-l: 100%;
+    --filter-l: 0.65;
+    --shadow: gray;
+}
+
+main {
+    color: hsl(var(--color-main-h) var(--color-main-s) var(--color-text-l));
+    fill: hsl(var(--color-main-h) var(--color-main-s) var(--color-text-l));
+}

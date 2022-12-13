@@ -1,0 +1,60 @@
+/*#######
+freeCodeCamp
+#########
+*/
+.fcc1 {
+    --url: url('../img/freecodecamp/random-quote.png');
+    --urlm: url('../img/freecodecamp/random-quote.png');
+}
+
+.fcc2 {
+    --url: url('../img/freecodecamp/d3-bar-chart.png');
+    --urlm: url('../img/freecodecamp/d3-bar-chart.png');
+}
+
+/*#######
+FrontEnd Mentor
+#########
+*/
+
+.fem1 {
+    /*product preview*/
+    --url: url('../img/frontend/product-preview.png');
+    --urlm: url('../img/frontend/product-preview-mobile.png');
+}
+
+.fem2 {
+    /*interactive rating*/
+    --url: url('../img/frontend/interactive-rating.png');
+    --urlm: url('../img/frontend/interactive-rating-mobile.png');
+}
+
+.fem3 {
+    /*qr code comp*/
+    --url: url('../img/frontend/qr-code-comp.png');
+    --urlm: url('../img/frontend/qr-code-comp-mobile.png');
+}
+
+.fem4 {
+    /*order summary*/
+    --url: url('../img/frontend/order-summary.png');
+    --urlm: url('../img/frontend/order-summary-mobile.png');
+}
+
+.fem5 {
+    /*column preview*/
+    --url: url('../img/frontend/column-preview-card.png');
+    --urlm: url('../img/frontend/column-preview-card-mobile.png');
+}
+
+.fem6 {
+    /*faq accordion*/
+    --url: url('../img/frontend/faq-accordion.png');
+    --urlm: url('../img/frontend/faq-accordion-mobile.png');
+}
+
+.fem7 {
+    /*interactive card*/
+    --url: url('../img/frontend/interactive-card-form.png');
+    --urlm: url('../img/frontend/interactive-card-form-mobile.png');
+}

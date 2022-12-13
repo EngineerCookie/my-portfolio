@@ -1,0 +1,52 @@
+{
+    "lang": {
+        "ES": {
+            "nav-about-me": "Sobre mi",
+            "nav-contact-me": "Contáctame",
+            "intro-name": "¡Hola! Mi nombre es Tony.",
+            "intro-text": "Soy desarrollador de Front-End.",
+            "portfolio-fcc": "Portafolio: freeCodeCamp",
+            "quotegen-title": "Generador de Frases Aleatorio",
+            "quotegen-desc": "Este generador de frases aleatorio fue creado como un projecto de certificación en freeCodeCamp. Fue codificado utilizando: HTML5, CSS, JavaScript y REACT.",
+            "d3-tittle": "Visualización de datos con D3",
+            "d3-desc": "Parte del curso de visualización de datos en freeCodeCamp consiste en crear gráficas, tablas y mapas utilizando la librería D3.js. Adicionalmente, los datos que alimentan dichas gráficas fueron manejadas en formato JSON y trabajadas mediante API.",
+            "d3-plot": "Diagrama de dispersión",
+            "d3-heat": "Mapa de calor con matriz",
+            "d3-cho": "Mapa coroplético",
+            "d3-tree": "Mapa de árbol",
+            "portfolio-fem": "Portafolio: Front-end Mentor",
+            "feMentor": "Enlace para Front-End Mentor",
+            "fem1": "Componente de tarjeta del producto con vista previa.",
+            "fem2": "Clasificación de satisfacción interactivo.",
+            "fem3": "Componente de código QR",
+            "fem4": "Tarjeta de resumen de orden",
+            "fem5": "Tarjeta de vista previa de 3 columnas",
+            "fem6": "Preguntas frecuentes en acordeón",
+            "fem7": "Formulario de información de tarjeta interactivo."
+        },
+        "EN": {
+            "nav-about-me": "About me",
+            "nav-contact-me": "Contact",
+            "intro-name": "Hi! My name is Tony.",
+            "intro-text": "I am a Front-End developer.",
+            "portfolio-fcc": "Portfolio: freeCodeCamp",
+            "quotegen-title": "Random Quote Generator",
+            "quotegen-desc": "This random quote generator was made as a certification proyect on freeCodeCamp. It was coded using: HTML5, CSS, JavaScript and REACT.",
+            "d3-tittle": "Data-visualization with D3",
+            "d3-desc": "Part of the Data-visualization course in freeCodeCamp consists in creating graphs, charts and maps using the D3.js library. The data that feeds these graphs are being fetch with an API and are being handled in a JSON format.",
+            "d3-plot": "Scatterplot Map",
+            "d3-heat": "Heat Map",
+            "d3-cho": "Choropleth Map",
+            "d3-tree": "Tree Map",
+            "portfolio-fem": "Portfolio: Front-end Mentor",
+            "feMentor": "Front-End Mentor Link",
+            "fem1": "Product preview card component.",
+            "fem2": "Interactive rating component",
+            "fem3": "QR code component",
+            "fem4": "Order summary component",
+            "fem5": "3-column preview card component",
+            "fem6": "FAQ accordion card",
+            "fem7": "Interactive card details for"
+        }
+    }
+}
