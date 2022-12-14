@@ -18,7 +18,7 @@
         <!--SKIP TO MAIN CONTENT BUTTOM-->
         <nav class="navbar rflexrowcenter-colreverse">
             <ul class="nav-left rflexrowstart-colstart unlist">
-                <!--<li data-text-lang="nav-about-me"></li>-->
+                <!--<li><a class='ulink' href='#about-me'><span data-text-lang="nav-about-me" class='ubold'></span></a></li>-->
                 <li><a class='ulink' href="#p-fcc">freeCodeCamp</a></li>
                 <li><a class='ulink' href="#p-fem">Front-End Mentor</a></li>
                 <li><a class='ulink' href="#contact-me"><span data-text-lang="nav-contact-me" class="ubold"></span></a>
@@ -51,14 +51,14 @@
     <main>
         <section id="about-me" class="profile uflexcol-center">
             <div class="intro-card rflexrowcenter-colcenter">
-                <img src="./img/profile-pic.png" class="intro-pic" alt="Me in a suit" />
-                <div class="intro-text">
+                <img src="./img/profile-pic.png" class="intro-pic animation lt-rt d100" alt="Me in a suit" />
+                <div class="intro-text animation rt-lt">
                     <h1 data-text-lang="intro-name" class="ubold"></h1>
                     <p data-text-lang="intro-text" class="ubold"></p>
                 </div>
             </div>
             <div class="social-link">
-                <div class="github-link uflexrow-center">
+                <div class="github-link uflexrow-center animation dn-up">
                     <svg class='social-icon' alt="github icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
                         {/*<!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->*/}
                         <path
@@ -67,7 +67,7 @@
                     <a class="ulink" href='https://github.com/EngineerCookie' target='_blank'>
                         <span class="ubold">@EngineerCookie</span></a>
                 </div>
-                <div class="fcc-link uflexrow-center">
+                <div class="fcc-link uflexrow-center animation dn-up">
                     <svg class='social-icon' alt='free code camp icon' xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 576 512">
                         {/*<!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->*/}
@@ -86,7 +86,7 @@
             </header>
             <!--RANDOM QUOTE GENERATOR-->
             <article class="portfolio-content uflexcol-center fcc1">
-                <div class="content-card">
+                <div class="content-card animation lt-rt">
                     <a class="ulink" href='https://engineercookie.github.io/random-quote-generator/' target='_blank'>
                         <h3 class="ubold utext-center" data-text-lang="quotegen-title"></h3>
                         <p class="utext-justify" data-text-lang="quotegen-desc"></p>
@@ -95,26 +95,26 @@
             </article>
             <!--D3 MAPS-->
             <article class='portfolio-content uflexcol-center fcc2'>
-                <div class="content-card">
+                <div class="content-card animation rt-lt">
                     <a class="ulink" href='https://engineercookie.github.io/Visualize-Data-with-a-Bar-Chart/' target='_blank'>
                         <h3 class="ubold utext-center" data-text-lang="d3-tittle"></h3>
                         <p class="utext-justify" data-text-lang="d3-desc"></p>
                     </a>
                 </div>
                 <div class="d3-gallery uflexrow-center-wrap">
-                    <a class="d3-item" href="https://engineercookie.github.io/Visualize-Data-with-a-Scatterplot-Graph/" target='_blank'>
+                    <a class="d3-item animation dn-up d100" href="https://engineercookie.github.io/Visualize-Data-with-a-Scatterplot-Graph/" target='_blank'>
                         <img width='250px' src="./img/freecodecamp/d3-scatterplot.png" />
                         <h4 class="utext-center" data-text-lang="d3-plot"></h4>
                     </a>
-                    <a class="d3-item" href="https://engineercookie.github.io/Visualize-Data-with-a-Heat-Map/" target='_blank'>
+                    <a class="d3-item animation dn-up d200" href="https://engineercookie.github.io/Visualize-Data-with-a-Heat-Map/" target='_blank'>
                         <img width='250px' src="./img/freecodecamp/d3-heatmap.png" />
                         <h4 class="utext-center" data-text-lang="d3-heat"></h4>
                     </a>
-                    <a class="d3-item" href="https://engineercookie.github.io/Visualize-Data-with-a-Choropleth-Map/" target='_blank'>
+                    <a class="d3-item animation dn-up d300" href="https://engineercookie.github.io/Visualize-Data-with-a-Choropleth-Map/" target='_blank'>
                         <img width='250px' src="./img/freecodecamp/d3-choroplethmap.png" />
                         <h4 class="utext-center" data-text-lang="d3-cho"></h4>
                     </a>
-                    <a class="d3-item" href="https://engineercookie.github.io/Visualize-Data-with-a-Treemap-Diagram/" target='_blank'>
+                    <a class="d3-item animation dn-up d400" href="https://engineercookie.github.io/Visualize-Data-with-a-Treemap-Diagram/" target='_blank'>
                         <img width='250px' src="./img/freecodecamp/d3-treemap.png" />
                         <h4 class="utext-center" data-text-lang="d3-tree"></h4>
                     </a>
@@ -131,49 +131,49 @@
             </header>
             <!--PRODUCT REVIEW-->
             <article class="portfolio-content uflexcol-end fem1">
-                <div class="content-title utext-center">
+                <div class="content-title utext-center animation dn-up">
                     <h3><a class="ubold ulink" data-text-lang="fem1" href="https://engineercookie.github.io/product-preview-card-component-main/" target="_blank"></a></h3>
                     <p><a class="ubold ulink" data-text-lang="feMentor" href="https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa" target="_blank"></a></p>
                 </div>
             </article>
             <!--INTERACTIVE RATING-->
             <article class="portfolio-content uflexcol-end fem2">
-                <div class="content-title utext-center">
+                <div class="content-title utext-center animation dn-up">
                     <h3><a class="ubold ulink" data-text-lang="fem2" href="https://engineercookie.github.io/interactive-rating-component/" target="_blank"></a></h3>
                     <p><a class="ubold ulink" data-text-lang="feMentor" href="https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI" target="_blank"></a></p>
                 </div>
             </article>
             <!--QR COMPONENT-->
             <article class="portfolio-content uflexcol-end fem3">
-                <div class="content-title utext-center">
+                <div class="content-title utext-center animation dn-up">
                     <h3><a class="ubold ulink" data-text-lang="fem3" href="https://engineercookie.github.io/qr-code-component-main/" target="_blank"></a></h3>
                     <p><a class="ubold ulink" data-text-lang="feMentor" href="https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H" target="_blank"></a></p>
                 </div>
             </article>
             <!--ORDER SUMMARY-->
             <article class="portfolio-content uflexcol-end fem4">
-                <div class="content-title utext-center">
+                <div class="content-title utext-center animation dn-up">
                     <h3><a class="ubold ulink" data-text-lang="fem4" href="https://engineercookie.github.io/order-summary-component-main/" target="_blank"></a></h3>
                     <p><a class="ubold ulink" data-text-lang="feMentor" href="https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj" target="_blank"></a></p>
                 </div>
             </article>
             <!--COLUMN REVIEW-->
             <article class="portfolio-content uflexcol-end fem5">
-                <div class="content-title utext-center">
+                <div class="content-title utext-center animation dn-up">
                     <h3><a class="ubold ulink" data-text-lang="fem5" href="https://engineercookie.github.io/3-column-preview-card-component-main/" target="_blank"></a></h3>
                     <p><a class="ubold ulink" data-text-lang="feMentor" href="https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-" target="_blank"></a></p>
                 </div>
             </article>
             <!--FAQ ACCORDION-->
             <article class="portfolio-content uflexcol-end fem6">
-                <div class="content-title utext-center">
+                <div class="content-title utext-center animation dn-up">
                     <h3><a class="ubold ulink" data-text-lang="fem6" href="https://engineercookie.github.io/faq-accordion-card-main/" target="_blank"></a></h3>
                     <p><a class="ubold ulink" data-text-lang="feMentor" href="https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam" target="_blank"></a></p>
                 </div>
             </article>
             <!--INTERACTIVE CARD-->
             <article class="portfolio-content uflexcol-end fem7">
-                <div class="content-title utext-center">
+                <div class="content-title utext-center animation dn-up">
                     <h3><a class="ubold ulink" data-text-lang="fem7" href="https://engineercookie.github.io/interactive-card-details-form-main/" target="_blank"></a></h3>
                     <p><a class="ubold ulink" data-text-lang="feMentor" href="https://www.frontendmentor.io/challenges/interactive-card-details-form-XpS8cKZDWw" target="_blank"></a></p>
                 </div>
@@ -182,7 +182,13 @@
                 <p data-text-lang="portfolio-fem"></p>
             </footer>
         </section>
-        <div id="contact-me"></div>
+        <section id="contact-me" class="uflexcol-center">
+            <article class="contact-card animation up-dn">
+                <h2 class="utitle ubold" data-text-lang="contact-title">CONTACT ME</h2>
+                <h3 data-text-lang="contact-desc">SEND ME AN EMAIL</h3>
+                <h4><a class="ulink" href="mailto:lam_273@hotmail.com">lam_273@hotmail.com</a></h4> 
+            </article>
+        </section>
     </main>
 </body>
 

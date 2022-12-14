@@ -80,4 +80,17 @@ navToggle.addEventListener('click', () => {
   navBar.classList.toggle('nav-active');
 })
 
-//WORK BENCH
+/*########
+SCROLLING ANIMATION
+#########*/
+let animTarget = document.querySelectorAll('.animation');
+
+let observer = new IntersectionObserver(itemCard => {
+  itemCard.forEach(item => {
+    item.target.classList.toggle('active', item.isIntersecting)
+  })
+})
+
+animTarget.forEach(target => {
+  observer.observe(target)
+})

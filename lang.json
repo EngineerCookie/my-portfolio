@@ -5,6 +5,7 @@
             "nav-contact-me": "Contáctame",
             "intro-name": "¡Hola! Mi nombre es Tony.",
             "intro-text": "Soy desarrollador de Front-End.",
+            "about-me": "Accesibilidad para todos los usuarios y adaptabilidad para cualquier dispositivo",
             "portfolio-fcc": "Portafolio: freeCodeCamp",
             "quotegen-title": "Generador de Frases Aleatorio",
             "quotegen-desc": "Este generador de frases aleatorio fue creado como un projecto de certificación en freeCodeCamp. Fue codificado utilizando: HTML5, CSS, JavaScript y REACT.",
@@ -22,13 +23,16 @@
             "fem4": "Tarjeta de resumen de orden",
             "fem5": "Tarjeta de vista previa de 3 columnas",
             "fem6": "Preguntas frecuentes en acordeón",
-            "fem7": "Formulario de información de tarjeta interactivo."
+            "fem7": "Formulario de información de tarjeta interactivo.",
+            "contact-title": "Contáctame",
+            "contact-desc": "Envíame un correo:"
         },
         "EN": {
             "nav-about-me": "About me",
             "nav-contact-me": "Contact",
             "intro-name": "Hi! My name is Tony.",
             "intro-text": "I am a Front-End developer.",
+            "about-me": "PLACEHOLDER",
             "portfolio-fcc": "Portfolio: freeCodeCamp",
             "quotegen-title": "Random Quote Generator",
             "quotegen-desc": "This random quote generator was made as a certification proyect on freeCodeCamp. It was coded using: HTML5, CSS, JavaScript and REACT.",
@@ -46,7 +50,9 @@
             "fem4": "Order summary component",
             "fem5": "3-column preview card component",
             "fem6": "FAQ accordion card",
-            "fem7": "Interactive card details for"
+            "fem7": "Interactive card details for",
+            "contact-title": "Contact",
+            "contact-desc": "Send me an e-mail:"
         }
     }
 }

@@ -68,6 +68,10 @@ UTILITY MISC.
     list-style: none;
 }
 
+.utitle {
+    font-size: var(--fs-title);
+}
+
 .ubold {
     font-weight: var(--fw-bold);
     margin: 0; /*Deleting this margin will displace pretty much everything... CAREFUL for future 'fixes'*/

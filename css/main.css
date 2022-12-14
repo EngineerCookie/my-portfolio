@@ -147,7 +147,7 @@ Portfolios
     background-size: cover;
     border-bottom: solid hsl(var(--color-main-h) var(--color-main-s) var(--color-main-l)) 1rem;
     transition: var(--animation-basic);
-
+    overflow: hidden;
 }
 
 .content-card {  /*Almost  the same as .content-title*/
@@ -159,6 +159,7 @@ Portfolios
     backdrop-filter: blur(10px);
     border-radius: 15px;
     transition: var(--animation-basic);
+
 }
 
 .d3-gallery {
@@ -174,6 +175,8 @@ Portfolios
     text-decoration: none;
     color: inherit;
     border-radius: 15px;
+    transition: var(--animation-basic);
+
 }
 
 .d3-item > h4 {
@@ -191,7 +194,7 @@ Portfolios
     padding: 0 min(1rem, 15vw);
     background-color: hsla(var(--color-sub-h), var(--color-sub-s), var(--color-sub-l), 0.65);
     backdrop-filter: blur(10px);
-    border-radius: 15px;
+    border-radius: 15px 15px 0 0;
     transition: var(--animation-basic);
 
 }
@@ -228,5 +231,36 @@ Portfolios
 
     .portfolio-footer>p {
         display: none;
+    }
+}
+
+/*#######
+Contact Me
+#######*/
+#contact-me {
+    height: 45vh;
+    width: 100%;
+}
+
+.contact-card {
+    width: 35%;
+    border: solid hsl(var(--color-main-h) var(--color-main-s) var(--color-main-l)) 2px;
+    background-color: hsl(var(--color-sub-h) var(--color-sub-s) var(--color-sub-l));
+    padding: 1rem 3rem;
+    margin: 10px 0;
+    border-radius: 15px;
+    transition: var(--animation-basic);
+    text-align: center;
+    
+}
+
+.contact-card > * {
+    margin: 0
+}
+
+@media (max-width: 960px) {
+    .contact-card {
+        padding: 0.5rem;
+        width: max-content;
     }
 }

@@ -35,7 +35,7 @@
     --fs-note: 0.6rem;
     --fw-bold: 700;
     /*ANIMATION*/
-    --animation-basic: 500ms ease-in;
+    --animation-basic: 600ms ease-in;
 }
 
 body,
@@ -44,6 +44,7 @@ main {
     height: 100vh;
     margin: 0;
     position: relative;
+    /*overflow-x: hidden;*/
 }
 
 body {
@@ -68,4 +69,10 @@ body.dark {
 main {
     color: hsl(var(--color-main-h) var(--color-main-s) var(--color-text-l));
     fill: hsl(var(--color-main-h) var(--color-main-s) var(--color-text-l));
+}
+
+@media(prefers-reduced-motion) {    
+    :root {
+        --animation-basic: none;
+    }
 }

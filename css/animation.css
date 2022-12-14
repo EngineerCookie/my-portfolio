@@ -1,0 +1,51 @@
+/*######
+shorthands
+rt = right
+lt = left
+up = up
+dn = down
+d1 = transition-delay +100ms
+d2 = transition-delay +200ms
+
+#######*/
+
+.animation {
+    opacity: 0;
+}
+
+.rt-lt {
+    transform: translateX(90%);
+}
+
+.lt-rt {
+    transform: translateX(-90%);
+}
+
+.up-dn {
+    transform: translateY(-90%);
+}
+
+.dn-up {
+    transform: translateY(80%);
+}
+
+.animation.active {
+    opacity: 100;
+    transform: translate(0, 0)
+}
+
+.d100 {
+    transition-delay: 100ms;
+}
+
+.d200 {
+    transition-delay: 200ms;
+}
+
+.d300 {
+    transition-delay: 300ms;
+}
+
+.d400 {
+    transition-delay: 400ms;
+}
