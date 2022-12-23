@@ -1,4 +1,13 @@
 /*#######
+Personal
+#########
+*/
+.per1 {
+    --url: url('../img/personal/quickmath.png');
+    --urlm: url('../img/personal/quickmath.png');
+}
+
+/*#######
 freeCodeCamp
 #########
 */

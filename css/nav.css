@@ -83,7 +83,7 @@ MOBILE NAV TOOL
 }
 
 .mobile-navtool.active {
-    translate: 50vw 0;
+    transform: translate(50vw, 0);
 }
 
 .mobile-navtool>.hide {
@@ -110,7 +110,7 @@ MEDIA QUERY
     .navbar {
         width: 50vw;
         height: 65vh;
-        translate: -105% 0;
+        transform: translate(-105%, 0);
         border-radius: 0 0 15px 0;
         box-shadow: 5px 5px 5px 0px var(--shadow);
         -webkit-box-shadow: 5px 5px 5px 0px var(--shadow);
@@ -145,7 +145,7 @@ MEDIA QUERY
     }
 
     .nav-active {
-        translate: 0 0;
+        transform: translate(0, 0);
     }
 
 }

@@ -2,10 +2,13 @@
     "lang": {
         "ES": {
             "nav-about-me": "Sobre mi",
+            "nav-personal": "Portafolio personal",
             "nav-contact-me": "Contáctame",
             "intro-name": "¡Hola! Mi nombre es Tony.",
             "intro-text": "Soy desarrollador de Front-End.",
             "about-me": "Accesibilidad para todos los usuarios y adaptabilidad para cualquier dispositivo",
+            "per1-title": "Matemática Rápida",
+            "per1-desc": "Una aplicación para poner a prueba la capacidad de hacer cálculos matemáticos en contra del relog.",
             "portfolio-fcc": "Portafolio: freeCodeCamp",
             "quotegen-title": "Generador de Frases Aleatorio",
             "quotegen-desc": "Este generador de frases aleatorio fue creado como un projecto de certificación en freeCodeCamp. Fue codificado utilizando: HTML5, CSS, JavaScript y REACT.",
@@ -29,10 +32,13 @@
         },
         "EN": {
             "nav-about-me": "About me",
+            "nav-personal": "Personal Porfolio",
             "nav-contact-me": "Contact",
             "intro-name": "Hi! My name is Tony.",
             "intro-text": "I am a Front-End developer.",
             "about-me": "PLACEHOLDER",
+            "per1-title": "Quick-Math Game",
+            "per1-desc": "A little application to test your habilities in solving math problems against the clock.",
             "portfolio-fcc": "Portfolio: freeCodeCamp",
             "quotegen-title": "Random Quote Generator",
             "quotegen-desc": "This random quote generator was made as a certification proyect on freeCodeCamp. It was coded using: HTML5, CSS, JavaScript and REACT.",
