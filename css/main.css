@@ -147,7 +147,6 @@ Portfolios
     background-size: cover;
     border-bottom: solid hsl(var(--color-main-h) var(--color-main-s) var(--color-main-l)) 1rem;
     transition: var(--animation-basic);
-    overflow: hidden;
 }
 
 .content-card {  /*Almost  the same as .content-title*/
@@ -239,7 +238,7 @@ Contact Me
 #######*/
 #contact-me {
     height: 45vh;
-    width: 100%;
+    width: 100%
 }
 
 .contact-card {
