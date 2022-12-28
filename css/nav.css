@@ -106,7 +106,7 @@ MOBILE NAV TOOL
 /*#######
 MEDIA QUERY
 #######*/
-@media (max-width: 700px) {
+@media (max-width: 880px) {
     .navbar {
         width: 50vw;
         height: 65vh;
@@ -137,7 +137,7 @@ MEDIA QUERY
 
     .nav-left>li {
         padding-left: 0;
-        padding-top: 3rem;
+        padding-top: 1rem;
     }
 
     .mobile-navtool {
