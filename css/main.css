@@ -14,7 +14,7 @@ PROFILE
     width: 200px;
     border-radius: 50%;
     margin: 1.5rem;
-    transition: var(--animation-basic);
+    transition: var(--animation-linear);
 }
 
 .intro-pic:hover {

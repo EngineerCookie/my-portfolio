@@ -35,6 +35,7 @@
     --fw-bold: 700;
     /*ANIMATION*/
     --animation-basic: 600ms ease-in;
+    --animation-linear: 300ms linear;
 }
 
 body,

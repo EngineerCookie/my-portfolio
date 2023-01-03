@@ -25,7 +25,7 @@
     cursor: pointer;
 }
 
-.navbar>ul>li>a:hover {
+.navbar>ul>li:hover {
     text-shadow: 0px 0px 16px hsl(var(--color-sub-h), var(--color-sub-s), var(--color-sub-l));
     filter: drop-shadow(0px 0px 8px hsl(var(--color-sub-h), var(--color-sub-s), var(--color-sub-l)));
 }
@@ -59,6 +59,7 @@ NAV RIGHT
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 /*#######
