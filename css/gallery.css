@@ -7,6 +7,11 @@ Personal
     --urlm: url('../img/personal/quickmath.png');
 }
 
+.per2 {
+    --url: url('../img/personal/pilotmemory.png');
+    --urlm: url('../img/personal/pilotmemory.png');
+}
+
 /*#######
 freeCodeCamp
 #########
