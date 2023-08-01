@@ -12,6 +12,10 @@ Personal
     --urlm: url('../img/personal/pilotmemory.png');
 }
 
+.per3 {
+    --url: url('../img/personal/Biznet.png');
+    --urlm: url('../img/personal/Biznet.png');
+}
 /*#######
 freeCodeCamp
 #########
