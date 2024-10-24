@@ -42,7 +42,7 @@ PROFILE
     border: 10px solid;
     border-color: transparent hsl(var(--color-main-h) var(--color-main-s) var(--color-main-l)) transparent transparent;
     left: -20px;
-    top:50%;
+    top: 50%;
     transition: var(--animation-basic);
 }
 
@@ -60,16 +60,16 @@ PROFILE
 
 .social-link {
     width: max-content;
-    
 }
 
-.social-link > div {
+.social-link>div {
     border: solid hsl(var(--color-main-h) var(--color-main-s) var(--color-main-l)) 2px;
     background-color: hsl(var(--color-sub-h) var(--color-sub-s) var(--color-sub-l));
     padding: 3px 8px;
     margin: 10px 0;
     border-radius: 15px;
     transition: var(--animation-basic);
+    width: fit-content;
 }
 
 .social-icon {
@@ -77,13 +77,14 @@ PROFILE
     padding-right: 5px;
 }
 
-@media (max-width: 620px) {
+@media (max-width: 880px) {
     .intro-text::before {
         border-color: transparent transparent hsl(var(--color-main-h) var(--color-main-s) var(--color-main-l)) transparent;
         top: -20px;
         left: 50%;
         transform: translate(-50%, 0);
     }
+
     .intro-text::after {
         border-color: transparent transparent hsl(var(--color-sub-h) var(--color-sub-s) var(--color-sub-l)) transparent;
         top: -17px;
@@ -133,7 +134,7 @@ Portfolios
     border-radius: 0 0 15px 15px;
     padding: 0 1rem 0.5rem;
     margin: 0 5px 0 0;
-    position: absolute; 
+    position: absolute;
     top: 0;
 }
 
@@ -149,7 +150,8 @@ Portfolios
     transition: var(--animation-basic);
 }
 
-.content-card {  /*Almost  the same as .content-title*/
+.content-card {
+    /*Almost  the same as .content-title*/
     margin: 0;
     backdrop-filter: blur(8px);
     width: min(100%, 35rem);
@@ -178,15 +180,17 @@ Portfolios
 
 }
 
-.d3-item > h4 {
-    font-weight: var(--fw-bold);  /*Do not replace with ubold class...*/
+.d3-item>h4 {
+    font-weight: var(--fw-bold);
+    /*Do not replace with ubold class...*/
 }
 
-.d3-item > img {
+.d3-item>img {
     border-radius: 15px 15px 0 0;
 }
 
-.content-title { /*Almost the same as .content-card*/
+.content-title {
+    /*Almost the same as .content-card*/
     margin: 0;
     backdrop-filter: blur(8px);
     width: min(100%, 25rem);
@@ -204,7 +208,7 @@ Portfolios
         padding: 0.5rem 0;
     }
 
-    .content-title{
+    .content-title {
         border-radius: 15px;
     }
 
@@ -213,13 +217,13 @@ Portfolios
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        background-image: var(--url);
+        background-image: var(--urlm);
         width: 250px;
         height: 250px;
         margin-bottom: 0.5rem;
-        box-shadow: 0px 3px 9px 10px rgba(0,0,0,0.75);
-        -webkit-box-shadow: 0px 3px 9px 10px rgba(0,0,0,0.75);
-        -moz-box-shadow: 0px 3px 9px 10px rgba(0,0,0,0.75);
+        box-shadow: 0px 3px 9px 10px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 0px 3px 9px 10px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 3px 9px 10px rgba(0, 0, 0, 0.75);
     }
 }
 
@@ -253,10 +257,10 @@ Contact Me
     border-radius: 15px;
     transition: var(--animation-basic);
     text-align: center;
-    
+
 }
 
-.contact-card > * {
+.contact-card>* {
     margin: 0
 }
 

@@ -1,4 +1,18 @@
 /*#######
+Mobile
+#########
+*/
+.mob1 {
+    --url: url('../img/mobile/palabrasalviento.png');
+    --urlm: url('../img/mobile/palabrasalviento-mobile.png');
+}
+
+.mob2 {
+    --url: url('../img/mobile/matblitz.png');
+    --urlm: url('../img/mobile/mathblitz-mobile.png');
+}
+
+/*#######
 Personal
 #########
 */
@@ -16,6 +30,7 @@ Personal
     --url: url('../img/personal/Biznet.png');
     --urlm: url('../img/personal/Biznet.png');
 }
+
 /*#######
 freeCodeCamp
 #########

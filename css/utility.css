@@ -59,7 +59,7 @@ UTILITY MISC.
     color: inherit;
 }
 
-.ulink:visited{
+.ulink:visited {
     color: inherit;
 }
 
@@ -74,7 +74,8 @@ UTILITY MISC.
 
 .ubold {
     font-weight: var(--fw-bold);
-    margin: 0; /*Deleting this margin will displace pretty much everything... CAREFUL for future 'fixes'*/
+    margin: 0;
+    /*Deleting this margin will displace pretty much everything... CAREFUL for future 'fixes'*/
 }
 
 .utext-center {
@@ -99,7 +100,7 @@ RESPONSIVE & MEDIA QUERY
 .rflexrowstart-colstart {
     display: flex;
     flex-direction: row;
-    align-items: center;    
+    align-items: center;
     justify-content: flex-start;
 }
 
@@ -126,9 +127,11 @@ RESPONSIVE & MEDIA QUERY
     .rflexrowstart-colstart {
         flex-direction: column;
     }
+
     .rflexrowcenter-colcenter {
         flex-direction: column;
     }
+
     .rflexrowend-rowstart {
         justify-content: flex-start;
     }
